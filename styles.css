@@ -1,0 +1,74 @@
+/* Background */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Ajuste no título */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Linha divisória */
+hr {
+    border: 2px solid #ff03c8;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Estilo geral da tabela */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+/* Estilo do cabeçalho */
+th {
+    background-color: #ff03c8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ff03c8;
+}
+
+/* Estilo de linhas alternadas */
+tr:nth-child(even) {
+    background-color: #ffb1f5;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Estilo das células */
+td {
+    padding: 8px;
+    border: 3px double #fd01d3;
+}
+
+/* Botões de resultado */
+.resultado-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffb1f5;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 50%;
+}
+
+.resultado-btn .destaque {
+    text-transform: uppercase;
+}
